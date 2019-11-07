@@ -13,6 +13,9 @@
 		D23980B22368BF4E00F8216E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23980B12368BF4E00F8216E /* Assets.xcassets */; };
 		D23980B52368BF4E00F8216E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23980B42368BF4E00F8216E /* Preview Assets.xcassets */; };
 		D23980B82368BF4E00F8216E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23980B62368BF4E00F8216E /* LaunchScreen.storyboard */; };
+		D2A8A2FD2374A78C00EBD8C5 /* PaintModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8A2FC2374A78C00EBD8C5 /* PaintModel.swift */; };
+		D2A8A2FF2374AC4200EBD8C5 /* PaintListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8A2FE2374AC4200EBD8C5 /* PaintListView.swift */; };
+		D2A8A3012374B73D00EBD8C5 /* PaintRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8A3002374B73D00EBD8C5 /* PaintRowView.swift */; };
 		D2E217DF2368C4FA009D4E1E /* PaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E217DE2368C4FA009D4E1E /* PaintView.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +28,9 @@
 		D23980B42368BF4E00F8216E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D23980B72368BF4E00F8216E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D23980B92368BF4E00F8216E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A8A2FC2374A78C00EBD8C5 /* PaintModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintModel.swift; sourceTree = "<group>"; };
+		D2A8A2FE2374AC4200EBD8C5 /* PaintListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintListView.swift; sourceTree = "<group>"; };
+		D2A8A3002374B73D00EBD8C5 /* PaintRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintRowView.swift; sourceTree = "<group>"; };
 		D2E217DE2368C4FA009D4E1E /* PaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +72,9 @@
 				D23980B92368BF4E00F8216E /* Info.plist */,
 				D23980B32368BF4E00F8216E /* Preview Content */,
 				D2E217DE2368C4FA009D4E1E /* PaintView.swift */,
+				D2A8A2FC2374A78C00EBD8C5 /* PaintModel.swift */,
+				D2A8A2FE2374AC4200EBD8C5 /* PaintListView.swift */,
+				D2A8A3002374B73D00EBD8C5 /* PaintRowView.swift */,
 			);
 			path = SUIPaint;
 			sourceTree = "<group>";
@@ -150,6 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D23980AC2368BF4D00F8216E /* AppDelegate.swift in Sources */,
+				D2A8A2FF2374AC4200EBD8C5 /* PaintListView.swift in Sources */,
+				D2A8A2FD2374A78C00EBD8C5 /* PaintModel.swift in Sources */,
+				D2A8A3012374B73D00EBD8C5 /* PaintRowView.swift in Sources */,
 				D2E217DF2368C4FA009D4E1E /* PaintView.swift in Sources */,
 				D23980AE2368BF4D00F8216E /* SceneDelegate.swift in Sources */,
 				D23980B02368BF4D00F8216E /* ContentView.swift in Sources */,
